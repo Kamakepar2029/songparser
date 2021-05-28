@@ -19,7 +19,7 @@ jobs:
 
       - name: Make All
         run: |
-          sudo bash package.sh
+          sudo bash package.sh songparser
           
 
       - name: Push To git
