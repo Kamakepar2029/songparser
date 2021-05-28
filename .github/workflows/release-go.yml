@@ -24,12 +24,8 @@ jobs:
 
       - name: Push To git
         run: |
-          pwd
-          echo "Directory"
-          pwd
           git config user.name "Your Name Here"
-          git config user.email your@email.com
-          git config advice.addIgnoredFile false
-          git add -f *
+          git config user.email "your@email.com"
+          git add .
           git commit -m "All"
           git push
