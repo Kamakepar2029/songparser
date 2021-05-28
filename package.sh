@@ -1,7 +1,4 @@
 cu=`pwd`
-rm darwin* && echo "success deletion" || echo "not_success"
-rm freebsd* && echo "success deletion" || echo "not_success"
-rm linux* && echo "success deletion" || echo "not_success"
 rm -rf release/packages && echo "success deletion" || echo "not success"
 mkdir -p release/packages/
 os_all='linux windows darwin freebsd'
