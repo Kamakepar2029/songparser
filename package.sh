@@ -1,4 +1,5 @@
 cu=`pwd`
+rm GOARCH*
 rm -rf $1/release/packages && echo "success deletion" || echo "not success"
 mkdir -p $1/release/packages/
 os_all='linux windows darwin freebsd'
