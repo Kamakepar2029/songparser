@@ -13,7 +13,7 @@ for os in $os_all; do
       else
         go build -o $1"_"$os"_"$arch && echo "Success build for arch "$arch" and os "$os || echo "No problem"
       fi
-      
-      
+    done
+done
 echo "Success Build"
 cd $cu
