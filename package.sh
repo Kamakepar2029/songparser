@@ -13,7 +13,7 @@ for os in $os_all; do
         mv $os"_"$arch".exe" release/packages && echo "Move success" || echo "Move not success"
       else
         go build -o $os"_"$arch && echo "Success build for arch "$arch" and os "$os || echo "No problem"
-        mv $os"_"$arch".exe" release/packages && echo "Move success" || echo "Move not success"
+        mv $os"_"$arch release/packages && echo "Move success" || echo "Move not success"
       fi
     done
 done
