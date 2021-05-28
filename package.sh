@@ -1,5 +1,5 @@
 cu=`pwd`
-rm GOARCH*
+rm GOARCH* && echo "success deletion" || echo "not_success"
 rm -rf $1/release/packages && echo "success deletion" || echo "not success"
 mkdir -p $1/release/packages/
 os_all='linux windows darwin freebsd'
