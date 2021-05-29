@@ -1,4 +1,0 @@
-148eef6bda18aa882454f8d36f8e88d77696cf588bb6752dc613b9656e51d6e7  songparser_v0.0.0-SNAPSHOT-eb9f39a_linux_arm64.tar.gz
-56f469e0c069fa0509ff70acd9f571cf47fafdbf050090c1068c989e21e85ca5  songparser_v0.0.0-SNAPSHOT-eb9f39a_darwin_amd64.tar.gz
-5fcc3a2f81d2b628a937270982a15a21fda8992cfb6208f313e5821318da3f37  songparser_v0.0.0-SNAPSHOT-eb9f39a_linux_386.tar.gz
-a5af6513f2880690c33f0283f4eaad26f16a2220c39fea95d6609863276a07fd  songparser_v0.0.0-SNAPSHOT-eb9f39a_linux_amd64.tar.gz
