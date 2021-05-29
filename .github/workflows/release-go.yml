@@ -21,6 +21,11 @@ jobs:
         run: |
           sudo bash package.sh songparser
           
+      - name: Run GoReleaser
+        uses: goreleaser/goreleaser-action@v2
+        with:
+          version: latest
+          args: release --rm-dist
 
       - name: Push To git
         run: |
