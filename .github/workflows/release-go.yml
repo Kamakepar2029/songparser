@@ -1,6 +1,14 @@
 name: goreleaser
 
+# Controls when the action will run. 
 on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -19,13 +27,8 @@ jobs:
 
       - name: Make All
         run: |
-          sudo bash package.sh songparser
-          
-      - name: Run GoReleaser
-        uses: goreleaser/goreleaser-action@v2
-        with:
-          version: latest
-          args: release --rm-dist
+          sudo bash package.sh
+
 
       - name: Push To git
         run: |
